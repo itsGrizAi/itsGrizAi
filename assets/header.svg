@@ -1,0 +1,210 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-label="Griz - building at the edge of Web3 and AI">
+  <title>Griz — building at the edge of Web3 × AI</title>
+  <defs>
+    <style>
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, Helvetica, Arial, sans-serif; }
+      .mono { font-family: ui-monospace, "Cascadia Code", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+      .fade { opacity: 0; animation: fade .9s ease-out forwards; }
+      .up   { opacity: 0; transform: translateY(14px); animation: up .8s cubic-bezier(.2,.7,.2,1) forwards; }
+      @keyframes fade { to { opacity: 1; } }
+      @keyframes up   { to { opacity: 1; transform: translateY(0); } }
+      .spin     { transform-box: fill-box; transform-origin: center; animation: spin 56s linear infinite; }
+      .spin-rev { transform-box: fill-box; transform-origin: center; animation: spin 38s linear infinite reverse; }
+      @keyframes spin { to { transform: rotate(360deg); } }
+      .pulse { transform-box: fill-box; transform-origin: center; animation: pulse 2.6s ease-in-out infinite; }
+      @keyframes pulse { 0%,100% { opacity: .55; transform: scale(1); } 50% { opacity: 1; transform: scale(1.6); } }
+      .drift-a { animation: driftA 16s ease-in-out infinite alternate; }
+      .drift-b { animation: driftB 20s ease-in-out infinite alternate; }
+      .drift-c { animation: driftC 14s ease-in-out infinite alternate; }
+      @keyframes driftA { to { transform: translate(90px, 40px); } }
+      @keyframes driftB { to { transform: translate(-70px, -50px); } }
+      @keyframes driftC { to { transform: translate(40px, -60px); } }
+      .sheen { animation: sheen 9s ease-in-out infinite; }
+      @keyframes sheen { 0%, 55% { transform: translateX(-500px); } 100% { transform: translateX(1500px); } }
+    </style>
+
+    <linearGradient id="aurora" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="600" y2="0" spreadMethod="repeat">
+      <stop offset="0"    stop-color="#a78bfa"/>
+      <stop offset="0.35" stop-color="#22d3ee"/>
+      <stop offset="0.7"  stop-color="#f472b6"/>
+      <stop offset="1"    stop-color="#a78bfa"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="600 0" dur="7s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="chip" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a78bfa" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity=".9"/>
+    </linearGradient>
+    <radialGradient id="vignette" cx="0.5" cy="0.5" r="0.75">
+      <stop offset="0"   stop-color="#fff" stop-opacity="1"/>
+      <stop offset="0.6" stop-color="#fff" stop-opacity=".55"/>
+      <stop offset="1"   stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="core" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0"   stop-color="#ffffff"/>
+      <stop offset="0.35" stop-color="#22d3ee"/>
+      <stop offset="1"   stop-color="#7c3aed"/>
+    </radialGradient>
+
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#30363d" stroke-width="1"/>
+    </pattern>
+    <mask id="gridmask"><rect width="1200" height="420" fill="url(#vignette)"/></mask>
+    <clipPath id="card"><rect width="1200" height="420" rx="18"/></clipPath>
+    <clipPath id="type"><rect id="typer" x="0" y="-40" width="0" height="60">
+      <animate attributeName="width" begin="1.1s" dur="2.3s" fill="freeze" calcMode="discrete"
+        values="0;16.5;32.9;49.4;65.9;82.4;98.8;115.3;131.8;148.2;164.7;181.2;197.6;214.1;230.6;247.1;263.5;280;296.5;312.9;329.4;345.9;362.4;378.8;395.3;411.8;428.2;444.7;461.2;477.6;494.1;510.6;527.1;543.5;560"/>
+    </rect></clipPath>
+
+    <filter id="glow" x="-30%" y="-60%" width="160%" height="220%">
+      <feGaussianBlur stdDeviation="7" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="blur" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="58"/>
+    </filter>
+  </defs>
+
+  <!-- ===== card background ===== -->
+  <g clip-path="url(#card)">
+    <rect width="1200" height="420" fill="#0d1117"/>
+    <g opacity=".85">
+      <circle class="drift-a" cx="220" cy="90"  r="210" fill="#7c3aed" opacity=".38" filter="url(#blur)"/>
+      <circle class="drift-b" cx="980" cy="330" r="230" fill="#0891b2" opacity=".34" filter="url(#blur)"/>
+      <circle class="drift-c" cx="640" cy="420" r="170" fill="#db2777" opacity=".18" filter="url(#blur)"/>
+    </g>
+    <rect width="1200" height="420" fill="url(#grid)" mask="url(#gridmask)" opacity=".55"/>
+    <!-- sheen sweep -->
+    <rect class="sheen" x="0" y="-100" width="140" height="620" fill="#ffffff" opacity=".035" transform="skewX(-20)"/>
+  </g>
+  <rect x=".5" y=".5" width="1199" height="419" rx="18" fill="none" stroke="#30363d"/>
+  <!-- top accent line -->
+  <rect x="18" y="0" width="1164" height="2" fill="url(#line)" opacity=".9"/>
+
+  <!-- ===== top-right meta ===== -->
+  <g class="fade mono" style="animation-delay:.6s" font-size="15" fill="#8b949e" text-anchor="end">
+    <text x="1132" y="46">@itsGrizAi</text>
+    <text x="1132" y="68" fill="#6e7681">est. 2021 · shipping in public</text>
+  </g>
+
+  <!-- ===== left: identity ===== -->
+  <g class="fade mono" font-size="17" fill="#8b949e" letter-spacing="2">
+    <text x="72" y="104">// hey, I'm</text>
+  </g>
+
+  <g class="up sans" style="animation-delay:.25s">
+    <text x="66" y="216" font-size="132" font-weight="900" fill="url(#aurora)" filter="url(#glow)" textLength="336" lengthAdjust="spacingAndGlyphs" letter-spacing="-4">GRIZ</text>
+  </g>
+
+  <!-- tagline with typewriter reveal -->
+  <g transform="translate(72 268)">
+    <g clip-path="url(#type)">
+      <text class="sans" x="0" y="0" font-size="27" font-weight="600" fill="#e6edf3" textLength="560" lengthAdjust="spacingAndGlyphs">building at the edge of Web3 × AI</text>
+    </g>
+    <rect x="4" y="-24" width="3" height="30" fill="#22d3ee">
+      <animate attributeName="x" begin="1.1s" dur="2.3s" fill="freeze" calcMode="discrete"
+        values="4;20.5;36.9;53.4;69.9;86.4;102.8;119.3;135.8;152.2;168.7;185.2;201.6;218.1;234.6;251.1;267.5;284;300.5;316.9;333.4;349.9;366.4;382.8;399.3;415.8;432.2;448.7;465.2;481.6;498.1;514.6;531.1;547.5;564"/>
+      <animate attributeName="opacity" values="1;0" dur="1s" repeatCount="indefinite" calcMode="discrete"/>
+    </rect>
+  </g>
+
+  <!-- chips -->
+  <g class="mono" font-size="15" font-weight="600">
+    <g class="up" style="animation-delay:3.5s">
+      <rect x="72" y="306" width="178" height="38" rx="19" fill="#161b22" stroke="#30363d"/>
+      <circle cx="94" cy="325" r="4.5" fill="#a78bfa" filter="url(#softglow)"/>
+      <text x="108" y="330" fill="#c9d1d9" textLength="128" lengthAdjust="spacingAndGlyphs">Stellar · Soroban</text>
+    </g>
+    <g class="up" style="animation-delay:3.7s">
+      <rect x="262" y="306" width="168" height="38" rx="19" fill="#161b22" stroke="#30363d"/>
+      <circle cx="284" cy="325" r="4.5" fill="#22d3ee" filter="url(#softglow)"/>
+      <text x="298" y="330" fill="#c9d1d9" textLength="118" lengthAdjust="spacingAndGlyphs">Zero-Knowledge</text>
+    </g>
+    <g class="up" style="animation-delay:3.9s">
+      <rect x="442" y="306" width="182" height="38" rx="19" fill="#161b22" stroke="#30363d"/>
+      <circle cx="464" cy="325" r="4.5" fill="#f472b6" filter="url(#softglow)"/>
+      <text x="478" y="330" fill="#c9d1d9" textLength="132" lengthAdjust="spacingAndGlyphs">Rust · TypeScript</text>
+    </g>
+    <g class="up" style="animation-delay:4.1s">
+      <rect x="636" y="306" width="126" height="38" rx="19" fill="#161b22" stroke="url(#chip)"/>
+      <circle cx="658" cy="325" r="4.5" fill="#fbbf24" filter="url(#softglow)"/>
+      <text x="672" y="330" fill="#e6edf3" textLength="76" lengthAdjust="spacingAndGlyphs">AI Agents</text>
+    </g>
+  </g>
+
+  <!-- ===== right: constellation ===== -->
+  <g class="fade" style="animation-delay:.5s">
+    <!-- orbit -->
+    <g transform="rotate(-18 950 210)">
+      <ellipse cx="950" cy="210" rx="192" ry="66" fill="none" stroke="#30363d" stroke-dasharray="3 7"/>
+      <circle r="4" fill="#e6edf3" filter="url(#softglow)">
+        <animateMotion dur="11s" repeatCount="indefinite" path="M758,210 a192,66 0 1,0 384,0 a192,66 0 1,0 -384,0"/>
+      </circle>
+    </g>
+
+    <!-- hexagons -->
+    <polygon points="1080,210 1015,322.6 885,322.6 820,210 885,97.4 1015,97.4" fill="none" stroke="url(#line)" stroke-width="1.5" opacity=".9"/>
+    <polygon class="spin" points="1112,210 1031,350.3 869,350.3 788,210 869,69.7 1031,69.7" fill="none" stroke="#30363d" stroke-width="1" opacity=".8"/>
+    <polygon class="spin-rev" points="1025,210 987.5,274.95 912.5,274.95 875,210 912.5,145.05 987.5,145.05" fill="none" stroke="#8b949e" stroke-width="1" stroke-dasharray="6 6" opacity=".7"/>
+
+    <!-- links -->
+    <g stroke="#3b4453" stroke-width="1.2">
+      <line x1="950" y1="210" x2="1080" y2="210"/>
+      <line x1="950" y1="210" x2="1015" y2="322.6"/>
+      <line x1="950" y1="210" x2="885"  y2="322.6"/>
+      <line x1="950" y1="210" x2="820"  y2="210"/>
+      <line x1="950" y1="210" x2="885"  y2="97.4"/>
+      <line x1="950" y1="210" x2="1015" y2="97.4"/>
+    </g>
+
+    <!-- travelling pulses -->
+    <circle r="3.2" fill="#22d3ee" filter="url(#softglow)"><animateMotion dur="2.4s" repeatCount="indefinite" path="M950,210 L1080,210"/></circle>
+    <circle r="3.2" fill="#a78bfa" filter="url(#softglow)"><animateMotion dur="3.1s" begin=".7s" repeatCount="indefinite" path="M885,322.6 L950,210"/></circle>
+    <circle r="3.2" fill="#f472b6" filter="url(#softglow)"><animateMotion dur="2.8s" begin="1.4s" repeatCount="indefinite" path="M950,210 L885,97.4"/></circle>
+    <circle r="3.2" fill="#22d3ee" filter="url(#softglow)"><animateMotion dur="3.6s" begin="2s" repeatCount="indefinite" path="M1015,97.4 L950,210"/></circle>
+    <circle r="3.2" fill="#e6edf3" filter="url(#softglow)"><animateMotion dur="3.3s" begin="1s" repeatCount="indefinite" path="M950,210 L1015,322.6"/></circle>
+
+    <!-- nodes -->
+    <g fill="#0d1117" stroke="#a78bfa" stroke-width="2">
+      <circle cx="1080" cy="210"  r="6"/>
+      <circle cx="1015" cy="322.6" r="6" stroke="#22d3ee"/>
+      <circle cx="885"  cy="322.6" r="6"/>
+      <circle cx="820"  cy="210"  r="6" stroke="#22d3ee"/>
+      <circle cx="885"  cy="97.4"  r="6" stroke="#f472b6"/>
+      <circle cx="1015" cy="97.4"  r="6"/>
+    </g>
+    <g fill="#a78bfa" opacity=".6">
+      <circle class="pulse" cx="1080" cy="210"  r="6"/>
+      <circle class="pulse" cx="1015" cy="322.6" r="6" style="animation-delay:.4s" fill="#22d3ee"/>
+      <circle class="pulse" cx="885"  cy="322.6" r="6" style="animation-delay:.8s"/>
+      <circle class="pulse" cx="820"  cy="210"  r="6" style="animation-delay:1.2s" fill="#22d3ee"/>
+      <circle class="pulse" cx="885"  cy="97.4"  r="6" style="animation-delay:1.6s" fill="#f472b6"/>
+      <circle class="pulse" cx="1015" cy="97.4"  r="6" style="animation-delay:2s"/>
+    </g>
+
+    <!-- core -->
+    <circle cx="950" cy="210" r="30" fill="#7c3aed" opacity=".25" filter="url(#blur)"/>
+    <circle cx="950" cy="210" r="13" fill="url(#core)" filter="url(#glow)"/>
+    <circle cx="950" cy="210" r="20" fill="none" stroke="#22d3ee" stroke-width="1" opacity=".6">
+      <animate attributeName="r" values="14;34" dur="2.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".7;0" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- labels -->
+    <g class="mono" font-size="12" fill="#6e7681" letter-spacing="1.5">
+      <text x="820" y="372" text-anchor="start">CONTRACTS</text>
+      <text x="950" y="372" text-anchor="middle">PROOFS</text>
+      <text x="1080" y="372" text-anchor="end">AGENTS</text>
+    </g>
+  </g>
+
+  <!-- bottom accent -->
+  <rect x="18" y="418" width="1164" height="2" fill="url(#line)" opacity=".5"/>
+</svg>
