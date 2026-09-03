@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-label="Griz - building at the edge of Web3 and AI">
-  <title>Griz — building at the edge of Web3 × AI</title>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-label="Griz - vibe coding, AI agents and automation, content creator">
+  <title>Griz — turning prompts into products</title>
   <defs>
     <style>
       .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, Helvetica, Arial, sans-serif; }
@@ -55,8 +55,8 @@
     <mask id="gridmask"><rect width="1200" height="420" fill="url(#vignette)"/></mask>
     <clipPath id="card"><rect width="1200" height="420" rx="18"/></clipPath>
     <clipPath id="type"><rect id="typer" x="0" y="-40" width="0" height="60">
-      <animate attributeName="width" begin="1.1s" dur="2.3s" fill="freeze" calcMode="discrete"
-        values="0;16.5;32.9;49.4;65.9;82.4;98.8;115.3;131.8;148.2;164.7;181.2;197.6;214.1;230.6;247.1;263.5;280;296.5;312.9;329.4;345.9;362.4;378.8;395.3;411.8;428.2;444.7;461.2;477.6;494.1;510.6;527.1;543.5;560"/>
+      <animate attributeName="width" begin="1.1s" dur="2.1s" fill="freeze" calcMode="discrete"
+        values="0;16.6;33.1;49.7;66.2;82.8;99.3;115.9;132.4;149;165.5;182.1;198.6;215.2;231.7;248.3;264.8;281.4;297.9;314.5;331;347.6;364.1;380.7;397.2;413.8;430.3;446.9;463.4;480"/>
     </rect></clipPath>
 
     <filter id="glow" x="-30%" y="-60%" width="160%" height="220%">
@@ -91,7 +91,7 @@
   <!-- ===== top-right meta ===== -->
   <g class="fade mono" style="animation-delay:.6s" font-size="15" fill="#8b949e" text-anchor="end">
     <text x="1132" y="46">@itsGrizAi</text>
-    <text x="1132" y="68" fill="#6e7681">est. 2021 · shipping in public</text>
+    <text x="1132" y="68" fill="#6e7681">CPP @ImagineArt_X · shipping in public</text>
   </g>
 
   <!-- ===== left: identity ===== -->
@@ -106,36 +106,36 @@
   <!-- tagline with typewriter reveal -->
   <g transform="translate(72 268)">
     <g clip-path="url(#type)">
-      <text class="sans" x="0" y="0" font-size="27" font-weight="600" fill="#e6edf3" textLength="560" lengthAdjust="spacingAndGlyphs">building at the edge of Web3 × AI</text>
+      <text class="sans" x="0" y="0" font-size="27" font-weight="600" fill="#e6edf3" textLength="480" lengthAdjust="spacingAndGlyphs">turning prompts into products</text>
     </g>
     <rect x="4" y="-24" width="3" height="30" fill="#22d3ee">
-      <animate attributeName="x" begin="1.1s" dur="2.3s" fill="freeze" calcMode="discrete"
-        values="4;20.5;36.9;53.4;69.9;86.4;102.8;119.3;135.8;152.2;168.7;185.2;201.6;218.1;234.6;251.1;267.5;284;300.5;316.9;333.4;349.9;366.4;382.8;399.3;415.8;432.2;448.7;465.2;481.6;498.1;514.6;531.1;547.5;564"/>
+      <animate attributeName="x" begin="1.1s" dur="2.1s" fill="freeze" calcMode="discrete"
+        values="4;20.6;37.1;53.7;70.2;86.8;103.3;119.9;136.4;153;169.5;186.1;202.6;219.2;235.7;252.3;268.8;285.4;301.9;318.5;335;351.6;368.1;384.7;401.2;417.8;434.3;450.9;467.4;484"/>
       <animate attributeName="opacity" values="1;0" dur="1s" repeatCount="indefinite" calcMode="discrete"/>
     </rect>
   </g>
 
   <!-- chips -->
   <g class="mono" font-size="15" font-weight="600">
-    <g class="up" style="animation-delay:3.5s">
-      <rect x="72" y="306" width="178" height="38" rx="19" fill="#161b22" stroke="#30363d"/>
+    <g class="up" style="animation-delay:3.3s">
+      <rect x="72" y="306" width="138" height="38" rx="19" fill="#161b22" stroke="url(#chip)"/>
       <circle cx="94" cy="325" r="4.5" fill="#a78bfa" filter="url(#softglow)"/>
-      <text x="108" y="330" fill="#c9d1d9" textLength="128" lengthAdjust="spacingAndGlyphs">Stellar · Soroban</text>
+      <text x="108" y="330" fill="#e6edf3" textLength="88" lengthAdjust="spacingAndGlyphs">Vibe Coding</text>
+    </g>
+    <g class="up" style="animation-delay:3.5s">
+      <rect x="222" y="306" width="122" height="38" rx="19" fill="#161b22" stroke="#30363d"/>
+      <circle cx="244" cy="325" r="4.5" fill="#22d3ee" filter="url(#softglow)"/>
+      <text x="258" y="330" fill="#c9d1d9" textLength="72" lengthAdjust="spacingAndGlyphs">AI Agents</text>
     </g>
     <g class="up" style="animation-delay:3.7s">
-      <rect x="262" y="306" width="168" height="38" rx="19" fill="#161b22" stroke="#30363d"/>
-      <circle cx="284" cy="325" r="4.5" fill="#22d3ee" filter="url(#softglow)"/>
-      <text x="298" y="330" fill="#c9d1d9" textLength="118" lengthAdjust="spacingAndGlyphs">Zero-Knowledge</text>
+      <rect x="356" y="306" width="130" height="38" rx="19" fill="#161b22" stroke="#30363d"/>
+      <circle cx="378" cy="325" r="4.5" fill="#f472b6" filter="url(#softglow)"/>
+      <text x="392" y="330" fill="#c9d1d9" textLength="80" lengthAdjust="spacingAndGlyphs">Automation</text>
     </g>
     <g class="up" style="animation-delay:3.9s">
-      <rect x="442" y="306" width="182" height="38" rx="19" fill="#161b22" stroke="#30363d"/>
-      <circle cx="464" cy="325" r="4.5" fill="#f472b6" filter="url(#softglow)"/>
-      <text x="478" y="330" fill="#c9d1d9" textLength="132" lengthAdjust="spacingAndGlyphs">Rust · TypeScript</text>
-    </g>
-    <g class="up" style="animation-delay:4.1s">
-      <rect x="636" y="306" width="126" height="38" rx="19" fill="#161b22" stroke="url(#chip)"/>
-      <circle cx="658" cy="325" r="4.5" fill="#fbbf24" filter="url(#softglow)"/>
-      <text x="672" y="330" fill="#e6edf3" textLength="76" lengthAdjust="spacingAndGlyphs">AI Agents</text>
+      <rect x="498" y="306" width="170" height="38" rx="19" fill="#161b22" stroke="#30363d"/>
+      <circle cx="520" cy="325" r="4.5" fill="#fbbf24" filter="url(#softglow)"/>
+      <text x="534" y="330" fill="#c9d1d9" textLength="120" lengthAdjust="spacingAndGlyphs">Content Creator</text>
     </g>
   </g>
 
@@ -199,9 +199,9 @@
 
     <!-- labels -->
     <g class="mono" font-size="12" fill="#6e7681" letter-spacing="1.5">
-      <text x="820" y="372" text-anchor="start">CONTRACTS</text>
-      <text x="950" y="372" text-anchor="middle">PROOFS</text>
-      <text x="1080" y="372" text-anchor="end">AGENTS</text>
+      <text x="820" y="372" text-anchor="start">PROMPTS</text>
+      <text x="950" y="372" text-anchor="middle">AGENTS</text>
+      <text x="1080" y="372" text-anchor="end">PRODUCTS</text>
     </g>
   </g>
 
