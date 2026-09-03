@@ -14,35 +14,25 @@
   <img src="https://img.shields.io/badge/Automation-workflows-f472b6?style=for-the-badge&logo=githubactions&logoColor=white" alt="Automation"/>
   <img src="https://img.shields.io/badge/Content-Creator-e6edf3?style=for-the-badge&logoColor=0d1117" alt="Content Creator"/>
   <a href="https://x.com/ImagineArt_X"><img src="https://img.shields.io/badge/CPP-%40ImagineArt__X-fbbf24?style=for-the-badge&logo=x&logoColor=0d1117" alt="CPP at ImagineArt"/></a>
+  <a href="https://github.com/itsGrizAi?tab=followers"><img src="https://img.shields.io/github/followers/itsGrizAi?style=for-the-badge&logo=github&logoColor=white&color=161b22&label=Follow" alt="Follow"/></a>
 </p>
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
 <h3 align="center">⚡ What I'm about</h3>
 
-<table align="center" width="100%">
-  <tr>
-    <td valign="top" width="58%">
-      <ul>
-        <li>🎛️ <b>Vibe coder.</b> I build with AI agents in the loop: describe, generate, test, ship. Repeat until it's great.</li>
-        <li>🤖 <b>AI agents &amp; automation.</b> Pipelines that eat the boring work so the fun work gets all the time.</li>
-        <li>🎬 <b>Content creator.</b> AI art, video and the workflows behind them, shared as I go.</li>
-        <li>🖼️ <b>CPP @ImagineArt.</b> Creating with <a href="https://x.com/ImagineArt_X">ImagineArt</a> and showing what the tools can really do.</li>
-        <li>🧪 <b>Proof of vibes.</b> Every repo below (Stellar dApps, ZK polls, a Ledger app in C) was vibe-coded end to end, in domains I had never touched before.</li>
-        <li>📍 <b>Now:</b> turning prompts into products, one repo at a time.</li>
-      </ul>
-    </td>
-    <td valign="top" align="center">
-      <a href="https://github.com/itsGrizAi">
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=itsGrizAi&theme=github_dark" alt="GitHub stats"/>
-      </a>
-      <br/>
-      <a href="https://github.com/itsGrizAi?tab=followers">
-        <img src="https://img.shields.io/github/followers/itsGrizAi?style=for-the-badge&logo=github&logoColor=white&color=7c3aed&label=Follow" alt="Follow"/>
-      </a>
-    </td>
-  </tr>
-</table>
+<a href="https://github.com/itsGrizAi">
+  <img align="right" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=itsGrizAi&theme=github_dark" alt="GitHub stats" width="340"/>
+</a>
+
+- 🎛️ **Vibe coder.** I build with AI agents in the loop: describe, generate, test, ship. Repeat until it's great.
+- 🤖 **AI agents & automation.** Pipelines that eat the boring work so the fun work gets all the time.
+- 🎬 **Content creator.** AI art, video and the workflows behind them, shared as I go.
+- 🖼️ **CPP @ImagineArt.** Creating with [ImagineArt](https://x.com/ImagineArt_X) and showing what the tools can really do.
+- 🧪 **Proof of vibes.** Every repo below (Stellar dApps, ZK polls, a Ledger app in C) was vibe-coded end to end, in domains I had never touched before.
+- 📍 **Now:** turning prompts into products, one repo at a time.
+
+<br clear="both"/>
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
@@ -58,20 +48,18 @@
 
 <h3 align="center">🧪 Vibe-coded &amp; shipped</h3>
 
-<table align="center">
-  <tr>
-    <td width="50%"><a href="https://github.com/itsGrizAi/sandoq"><img src="assets/cards/sandoq.svg" alt="sandoq: rotating savings circles on Stellar" width="100%"/></a></td>
-    <td width="50%"><a href="https://github.com/itsGrizAi/umbra-midnight"><img src="assets/cards/umbra-midnight.svg" alt="umbra-midnight: anonymous, verifiable polls on Midnight" width="100%"/></a></td>
-  </tr>
-  <tr>
-    <td width="50%"><a href="https://github.com/itsGrizAi/stellar-launchpad"><img src="assets/cards/stellar-launchpad.svg" alt="stellar-launchpad: crowdfunding launchpad on Soroban" width="100%"/></a></td>
-    <td width="50%"><a href="https://github.com/itsGrizAi/stellar-crowdfund"><img src="assets/cards/stellar-crowdfund.svg" alt="stellar-crowdfund: Soroban crowdfunding escrow" width="100%"/></a></td>
-  </tr>
-  <tr>
-    <td width="50%"><a href="https://github.com/itsGrizAi/stellar-wallet-dapp"><img src="assets/cards/stellar-wallet-dapp.svg" alt="stellar-wallet-dapp: Stellar wallet dApp" width="100%"/></a></td>
-    <td width="50%"><a href="https://github.com/itsGrizAi/ledger-hardmail-app"><img src="assets/cards/ledger-hardmail-app.svg" alt="ledger-hardmail-app: Ledger hardware-wallet app in C" width="100%"/></a></td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://github.com/itsGrizAi/sandoq"><img src="assets/cards/sandoq.svg" alt="sandoq: rotating savings circles on Stellar" width="49%"/></a>
+  <a href="https://github.com/itsGrizAi/umbra-midnight"><img src="assets/cards/umbra-midnight.svg" alt="umbra-midnight: anonymous, verifiable polls on Midnight" width="49%"/></a>
+</p>
+<p align="center">
+  <a href="https://github.com/itsGrizAi/stellar-launchpad"><img src="assets/cards/stellar-launchpad.svg" alt="stellar-launchpad: crowdfunding launchpad on Soroban" width="49%"/></a>
+  <a href="https://github.com/itsGrizAi/stellar-crowdfund"><img src="assets/cards/stellar-crowdfund.svg" alt="stellar-crowdfund: Soroban crowdfunding escrow" width="49%"/></a>
+</p>
+<p align="center">
+  <a href="https://github.com/itsGrizAi/stellar-wallet-dapp"><img src="assets/cards/stellar-wallet-dapp.svg" alt="stellar-wallet-dapp: Stellar wallet dApp" width="49%"/></a>
+  <a href="https://github.com/itsGrizAi/ledger-hardmail-app"><img src="assets/cards/ledger-hardmail-app.svg" alt="ledger-hardmail-app: Ledger hardware-wallet app in C" width="49%"/></a>
+</p>
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
