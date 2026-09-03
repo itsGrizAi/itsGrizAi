@@ -1,20 +1,19 @@
 <a href="https://github.com/itsGrizAi">
-  <img src="assets/header.svg" alt="Griz, building at the edge of Web3 and AI" width="100%"/>
+  <img src="assets/header.svg" alt="Griz: vibe coding, AI agents and automation, content creator" width="100%"/>
 </a>
 
 <p align="center">
   <a href="https://github.com/itsGrizAi">
-    <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=22&duration=2600&pause=900&color=A78BFA&center=true&vCenter=true&repeat=true&width=780&height=50&lines=Web3+%C3%97+AI+builder;Soroban+contracts+on+Stellar%2C+written+in+Rust;Zero-knowledge+apps+on+Midnight;TypeScript+dApps%2C+end+to+end;Shipping+in+public%2C+one+commit+at+a+time" alt="Web3 x AI builder"/>
+    <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=22&duration=2600&pause=900&color=A78BFA&center=true&vCenter=true&repeat=true&width=780&height=50&lines=Vibe+Coding+%7C+AI+Agents+%26+Automation;Content+Creator+%C2%B7+CPP+%40ImagineArt_X;I+turn+prompts+into+products;Automate+the+boring%2C+create+the+fun;Shipping+in+public%2C+one+prompt+at+a+time" alt="Vibe Coding | AI Agents and Automation | Content Creator"/>
   </a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Stellar-Soroban-7c3aed?style=for-the-badge&logo=stellar&logoColor=white" alt="Stellar / Soroban"/>
-  <img src="https://img.shields.io/badge/Midnight-Zero--Knowledge-22d3ee?style=for-the-badge&logoColor=0d1117" alt="Midnight / ZK"/>
-  <img src="https://img.shields.io/badge/Rust-contracts-f472b6?style=for-the-badge&logo=rust&logoColor=white" alt="Rust"/>
-  <img src="https://img.shields.io/badge/TypeScript-dApps-3178c6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
-  <img src="https://img.shields.io/badge/Ledger-embedded_C-161b22?style=for-the-badge&logo=ledger&logoColor=white" alt="Ledger"/>
-  <img src="https://img.shields.io/badge/AI-agents-fbbf24?style=for-the-badge&logoColor=0d1117" alt="AI agents"/>
+  <img src="https://img.shields.io/badge/Vibe-Coding-7c3aed?style=for-the-badge&logo=githubcopilot&logoColor=white" alt="Vibe Coding"/>
+  <img src="https://img.shields.io/badge/AI-Agents-22d3ee?style=for-the-badge&logoColor=0d1117" alt="AI Agents"/>
+  <img src="https://img.shields.io/badge/Automation-workflows-f472b6?style=for-the-badge&logo=githubactions&logoColor=white" alt="Automation"/>
+  <img src="https://img.shields.io/badge/Content-Creator-e6edf3?style=for-the-badge&logoColor=0d1117" alt="Content Creator"/>
+  <a href="https://x.com/ImagineArt_X"><img src="https://img.shields.io/badge/CPP-%40ImagineArt__X-fbbf24?style=for-the-badge&logo=x&logoColor=0d1117" alt="CPP at ImagineArt"/></a>
 </p>
 
 <img src="assets/divider.svg" width="100%" alt=""/>
@@ -25,17 +24,17 @@
   <tr>
     <td valign="top" width="56%">
       <ul>
-        <li>🧬 <b>I build trust-minimized systems:</b> rotating savings circles, crowdfunding escrows and anonymous polls that work without a middleman.</li>
-        <li>⛓️ <b>Stellar / Soroban</b> smart contracts in Rust, wired to TypeScript dApps that talk to them end to end.</li>
-        <li>🕶️ <b>Zero-knowledge</b> on Midnight: public tally, private voter, one ballot per key, eligibility proven in ZK.</li>
-        <li>🔐 <b>Down to the metal:</b> a Ledger hardware-wallet app written in C, because the last mile matters.</li>
-        <li>🤖 <b>Now:</b> putting AI agents inside on-chain flows. Web3 × AI is home.</li>
-        <li>🥋 RiseIn Stellar journey: White → Yellow → Orange belt.</li>
+        <li>🎛️ <b>Vibe coder.</b> I build with AI agents in the loop: describe, generate, test, ship. Repeat until it's great.</li>
+        <li>🤖 <b>AI agents &amp; automation.</b> Pipelines that eat the boring work so the fun work gets all the time.</li>
+        <li>🎬 <b>Content creator.</b> AI art, video and the workflows behind them, shared as I go.</li>
+        <li>🖼️ <b>CPP @ImagineArt.</b> Creating with <a href="https://x.com/ImagineArt_X">ImagineArt</a> and showing what the tools can really do.</li>
+        <li>🧪 <b>Proof of vibes.</b> Every repo below (Stellar dApps, ZK polls, a Ledger app in C) was vibe-coded end to end, in domains I had never touched before.</li>
+        <li>📍 <b>Now:</b> turning prompts into products, one repo at a time.</li>
       </ul>
     </td>
     <td valign="top" align="center">
       <a href="https://github.com/itsGrizAi">
-        <img src="https://github-readme-stats.vercel.app/api?username=itsGrizAi&show_icons=true&hide_border=true&bg_color=0d1117&title_color=a78bfa&icon_color=22d3ee&text_color=c9d1d9&ring_color=a78bfa&include_all_commits=true&count_private=true&rank_icon=github&hide_title=false" alt="GitHub stats" width="100%"/>
+        <img src="https://github-readme-stats.vercel.app/api?username=itsGrizAi&show_icons=true&hide_border=true&bg_color=0d1117&title_color=a78bfa&icon_color=22d3ee&text_color=c9d1d9&ring_color=a78bfa&include_all_commits=true&count_private=true&rank_icon=github" alt="GitHub stats" width="100%"/>
       </a>
       <a href="https://github.com/itsGrizAi?tab=followers">
         <img src="https://img.shields.io/github/followers/itsGrizAi?style=for-the-badge&logo=github&logoColor=white&color=7c3aed&label=Follow" alt="Follow"/>
@@ -46,23 +45,23 @@
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
-<h3 align="center">🛠️ Stack</h3>
+<h3 align="center">🧰 Tools I vibe with</h3>
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=rust,ts,js,react,nextjs,nodejs,tailwind,python,c,docker,linux,bash,git,githubactions,vercel,vscode&perline=8" alt="Rust, TypeScript, JavaScript, React, Next.js, Node.js, Tailwind, Python, C, Docker, Linux, Bash, Git, GitHub Actions, Vercel, VS Code"/>
+    <img src="https://skillicons.dev/icons?i=ts,js,python,react,nextjs,nodejs,tailwind,rust,c,docker,git,github,githubactions,vercel,vscode,bash&perline=8" alt="TypeScript, JavaScript, Python, React, Next.js, Node.js, Tailwind, Rust, C, Docker, Git, GitHub, GitHub Actions, Vercel, VS Code, Bash"/>
   </a>
 </p>
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
-<h3 align="center">🚀 Featured builds</h3>
+<h3 align="center">🧪 Vibe-coded &amp; shipped</h3>
 
 <table align="center">
   <tr>
     <td>
       <a href="https://github.com/itsGrizAi/sandoq">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=itsGrizAi&repo=sandoq&hide_border=true&bg_color=0d1117&title_color=a78bfa&icon_color=22d3ee&text_color=c9d1d9&show_owner=false" alt="sandoq: trust-minimized rotating savings circles on Stellar"/>
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=itsGrizAi&repo=sandoq&hide_border=true&bg_color=0d1117&title_color=a78bfa&icon_color=22d3ee&text_color=c9d1d9&show_owner=false" alt="sandoq: rotating savings circles on Stellar"/>
       </a>
     </td>
     <td>
