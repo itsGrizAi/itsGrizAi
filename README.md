@@ -14,7 +14,8 @@
   <img src="https://img.shields.io/badge/Automation-workflows-f472b6?style=for-the-badge&logo=githubactions&logoColor=white" alt="Automation"/>
   <img src="https://img.shields.io/badge/Content-Creator-e6edf3?style=for-the-badge&logoColor=0d1117" alt="Content Creator"/>
   <a href="https://x.com/ImagineArt_X"><img src="https://img.shields.io/badge/CPP-%40ImagineArt__X-fbbf24?style=for-the-badge&logo=x&logoColor=0d1117" alt="CPP at ImagineArt"/></a>
-  <a href="https://github.com/itsGrizAi?tab=followers"><img src="https://img.shields.io/github/followers/itsGrizAi?style=for-the-badge&logo=github&logoColor=white&color=161b22&label=Follow" alt="Follow"/></a>
+  <a href="https://x.com/itsgrizai"><img src="https://img.shields.io/badge/X-%40itsgrizai-0d1117?style=for-the-badge&logo=x&logoColor=white" alt="Follow @itsgrizai on X"/></a>
+  <a href="https://github.com/itsGrizAi?tab=followers"><img src="https://img.shields.io/github/followers/itsGrizAi?style=for-the-badge&logo=github&logoColor=white&color=161b22&label=Follow" alt="Follow on GitHub"/></a>
 </p>
 
 <img src="assets/divider.svg" width="100%" alt=""/>
